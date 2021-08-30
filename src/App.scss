@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    .app__left {
+        flex: 1;
+        height: 95%;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border: 1px solid black;
+    }
+}
+
+.map {
+    height: 500px;
+    width: 80%;
+
+    .leaflet-container {
+        height: 100%;
+    }
+}
